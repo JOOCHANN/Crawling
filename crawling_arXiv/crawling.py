@@ -116,9 +116,6 @@ if __name__ == "__main__":
 
             print('year:{}, current_page:{:5}\t Progress:{:0.4%}'.format(i, page, page/total_page))
             page = page + per_page # Go to the next page
-            print('sleep 60sec')
-            time.sleep(60)
-            print('sleep 60sec done')
 
         print()
         print()
